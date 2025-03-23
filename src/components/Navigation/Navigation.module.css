@@ -1,0 +1,42 @@
+.header {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: inline-block;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  padding: 6px 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+  background-color: rgba(52, 152, 219, 0.1);
+  color: inherit;
+}
+
+.active {
+  color: #3498db;
+  font-weight: bold;
+  border-bottom: 2px solid #3498db;
+}

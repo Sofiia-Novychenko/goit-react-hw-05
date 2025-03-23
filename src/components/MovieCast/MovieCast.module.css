@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.actorCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poster {
+  height: auto;
+  border-radius: 8px;
+}
+
+.infoContainer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.text {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
